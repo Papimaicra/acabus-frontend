@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Para evitar el desbordamiento horizontal si la imagen de fondo es grande */
+  }
+  
+  .background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./media/acabus2.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Ajusta la opacidad según tus preferencias */
+    z-index: -1; /* Coloca el fondo detrás del contenido */
+  }
+  
