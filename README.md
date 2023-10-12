@@ -1,10 +1,12 @@
 # React + Vite
 
-instalar documentos extra
+instalar documentos extra:
+
 npm install   
 npx tailwindcss init
 
-ejecutar programa: npm run dev
+ejecutar programa: 
+npm run dev
 
 
 
